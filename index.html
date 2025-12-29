@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Summation</title>
+</head>
+<body>
+    <h2>FOCP Assignment: Array Summation</h2>
+    <p>Open the Console (Right Click > Inspect > Console) to see the code running.</p>
+    <p>Result on screen: <span id="result">Calculating...</span></p>
+
+    <script src="script.js"></script> 
+    
+    <script>
+        setTimeout(() => {
+             if(typeof totalSum !== 'undefined') {
+                 document.getElementById('result').innerText = totalSum;
+             }
+        }, 500);
+    </script>
+</body>
+</html>
